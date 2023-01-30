@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body {
+    font-family: 'Aboreto', cursive;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1680px) {
+.navButton {
+   
+   display: inline-flex;
+   margin-left: 10px;
+   
+}
+
+.pic {
+        display:inline-flex;
+        float: left;
+}
+
+.textContainer {
+    display: inline-block;
+    width: 50%;
+    
+}
+.superDiv2 {
+    text-align: right;
+    display: none;
+    
+}
+
+}
+
+@media (max-width:1280px) {
+    .navButton { 
+        
+        display: inline-flex;
+        margin-left: 15px;
+
+    }
+    .pic {
+       
+        display:inline-flex;
+        float: left;
+}
+
+.textContainer {
+    display: inline-block;
+    width: 50%;
+}
+
+.superDiv2 {
+    text-align: right;
+    display: none;
+}
+}
+
+@media (max-width:680px) {
+    .navButton {
+         
+        display: inline-flex;
+        margin-left: 2px;
+    }
+    .pic {
+       
+        display: inline-flex;
+        float: left;
+}
+
+.textContainer {
+    display: inline-block;
+    width: 50%;
+}
+
+.superDiv2 {
+    text-align: right;
+    display: none;
+    
+}
+
+
+}
+
+.navBar {
+background-color: #333;
+overflow: hidden;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+font-size: 17px;
+    
+}
+
+.navButton {
+ align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.navButton:hover,
+.navButton:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.navButton:hover {
+  transform: translateY(-1px);
+}
+
+.navButton:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+
+
+
+.photo {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+
+.superDiv2 {
+    border: 1px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 750px;
+    height: 450px;
+    margin: auto;
+    
+    
+    
+}
+
+#idk {
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#showMe {
+    padding: 15px;
+    
+
+}
+
+#hideMe {
+    padding: 15px; 
+    display: inline-flex;
+    margin-left: 7px;
+}
+
+.pic {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+.textContainer {
+    margin-right: 10px;
+}
+

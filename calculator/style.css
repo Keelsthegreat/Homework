@@ -1,0 +1,194 @@
+@font-face{
+font-family: 'pocketCalc';
+src : url("./PocketCalculator-qjd.ttf");
+
+}
+@font-face {
+    font-family:'headerFont';
+    src: url("./MayhemRegular-gx4ZE.otf");
+}
+
+
+
+/* 8. Create an outer border for the calculator using the outer div container  */
+body{
+    background-color: #E10D80;
+}
+
+.header {
+    text-align: center;
+    font-family: 'headerFont';
+    font-size: 50px;
+}
+.outerContainer {
+    padding: 10px;
+    border-radius: 1em;
+    height: 680px;
+    width: 600px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-image: url('https://cdn.discordapp.com/attachments/1031314300305936455/1070924571986903050/hk.png');
+    background-repeat: no-repeat;
+    background-size: 900px 700px ;
+    border: 1px solid #E92B92;
+    
+    }
+
+
+
+/* 9. create an area the will show display for calculator output */
+.display {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+   color: black;
+    border-radius: 5px;
+    width: 100%;
+   height: 20%;
+   
+}
+
+
+.input {
+    z-index: 999999;
+    display: inline;
+    margin-left: 100px;
+    font-family: 'pocketCalc';
+    font-size: 80px;
+    overflow: hidden;
+    
+    
+}
+
+.clear {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #E01B86;
+    color: white;
+    border: solid black 0.5px;
+    width: 15%;
+    border-radius: 5px;
+    height: 100%;
+    outline: none;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.clear:hover {background-color: #BB2476;}
+
+.clear:active { 
+  background-color: #F564B3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+}
+
+
+/* 10. space out each of the rows to your liking */
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.row1b {
+    font-family: 'Orbitron', sans-serif;
+background-color: #E01B86;
+color: white;
+border: solid black 0.5px;
+width: 100%;
+border-radius: 5px;
+height: 70%;
+outline: none;
+padding: 25px;
+font-size: 20px;
+}
+
+.row1b:hover {background-color: #BB2476;}
+
+.row1b:active {
+  background-color: #F564B3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+}
+
+.row2b {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #E01B86;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.row2b:hover {background-color: #BB2476;}
+
+.row2b:active {
+  background-color: #F564B3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+}
+
+.row3b {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #E01B86;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.row3b:hover {background-color: #BB2476;}
+
+.row3b:active {
+  background-color: #F564B3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+}
+
+.row4b {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #E01B86;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 170%;
+    outline: none;
+    padding: 25px;
+    font-size: 20px;
+}
+.row4b:hover {background-color: #BB2476;}
+
+.row4b:active {
+  background-color:#F564B3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+}
+

@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&display=swap');
+
+
+
+a {
+    text-decoration: none !important;
+    color: gray;
+}
+
+.list {
+    display: flex;
+    margin:0;
+    float: right;
+    list-style: none;
+    cursor: pointer;
+    gap: 12px;
+
+}
+
+
+.list2 {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    gap: 50px;
+    margin-left: 35%;
+}
+
+.list2:hover {
+    text-decoration: underline red;
+    
+}
+
+#getHelp {
+    color: rgb(196, 15, 15);
+}
+
+.imgSrc{
+    width: 135px;
+    height:auto;
+}
+
+.navShop {
+    color: rgb(168, 16, 16);
+}
+
+
+.topNavDiv {
+    position: fixed;
+    top: 0;
+    z-index: 500!important;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0.2rem 1.5rem 0 rgb(0 0 0 / 30%);
+    height: 30px;
+    left: 0;
+    right:0;
+    opacity: 1;
+    
+    
+    
+}
+
+.mainNavDiv {
+    position: fixed;
+    background-color:white;
+    width: auto;
+    box-shadow: 0 0.2rem 1.5rem 0 rgb(0 0 0 / 30%);
+    top: 20px;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    
+    
+    
+}
+
+
+.photoContainer {
+    background-image: url("https://www.redcross.org/content/dam/redcross/homepage-assets/fdr-banners/2023/disasters/ca-storms-and-flooding/CA-Flood-Banner.jpg.transform/1288/q70/feature/image.jpeg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;  
+    margin-bottom: -15px; 
+    
+    
+    
+}
+.photo1 {
+   float: left;
+   margin: 0;
+   font-size: 30px;
+   color: #ffffff;
+   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+   text-shadow: 1px 1px 2px black;
+   line-height: 1.1;   
+   margin: 6em;
+   white-space: nowrap;
+   
+   
+   
+}
+
+.photoContainer2 {
+    
+    display:block;
+    background-image: url("https://www.redcross.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/Feb_2023_Amazon_GC_Hero_gradient%20copy.jpg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;
+    
+}
+
+.photo2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif,;
+    color: #333333;
+    float: left;
+    margin: 3em;
+    font-size: 35px;
+   
+
+
+}
+.header {
+    width: 50%;
+}
+
+.subHeader {
+    width: 45%;
+}
+
+.photoContainer3 {
+    
+    background-image: url("https://www.redcross.org/content/dam/redcross/homepage-assets/ts-banners/2023/cpr-banner-nfl/Workplaces-and-Organizations-CPR-Desktop.jpg.transform/1288/q70/feature/image.jpeg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;
+    
+}
+
+.photo3 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif,;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+    white-space: nowrap;
+    padding: 18em;
+    font-size: 150%;
+    
+  
+}
+
+.madCowHeader {
+    display: block;
+    padding: 0px 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(0 124 175);
+    color: white;
+    text-align: left;
+    line-height: 2.8;
+    margin-top:-5.5em;
+    
+}
+
+
+.photob 
+     {
+        border: none;
+        padding: 0.7rem 1.6rem;
+        color: #fff;
+        background-color: #E11B22;
+        box-sizing: border-box;
+        border-radius: 4px;
+        
+
+    }
+    
+    .redcross-button a.button, .redcross-button button {
+        cursor: pointer;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+       
+        border-style: none;
+        border-radius: 0.3rem;
+        box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 15%);
+        padding: 25px;
+        line-height: 1.4;
+      
+}
+
+.crossContainer {
+    background-image: url("https://cdn.discordapp.com/attachments/692019678482006016/1071963890612711444/image.png");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    left: 0;
+    
+}
+
+.photoContainer4 {
+    background-image: url("https://www.redcross.org/content/dam/redcross/homepage-assets/volunteer-banners/hurricane-ian/Vol-Ian-Banner-Desktop.jpg.transform/1288/q70/feature/image.jpeg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;
+}
+
+.photo4 {
+    float: left;
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+    line-height: 1.1;   
+    margin: 6em;
+    
+}
+
+.subText {
+    width: 60%;
+}
+
+.photoContainer5 {
+    background-image: url("https://www.redcross.org/content/dam/redcross/homepage-assets/ts-banners/TS-CPR-Desktop.jpg.transform/1288/q70/feature/image.jpeg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;
+}
+
+.photo5 {
+    float: right;
+    margin-left: 60%;
+    padding-right: -50%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+    line-height: 1.1;   
+    
+    padding-top:3em;
+}
+
+.subText2 {
+    font-size: 12px;
+}
+
+.header2 {
+    width:70%;
+}
+
+
+
+.specialPic{
+    background-image: url("https://cdn.discordapp.com/attachments/692019678482006016/1071960354978021386/image.png");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;
+}
+
+.redReady {
+    background-image: url("https://media.discordapp.net/attachments/692019678482006016/1071976921535094895/image.png?width=1120&height=516");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;
+    display:flex;
+    
+}
+
+.shopContainer {
+    background-image: url("https://cdn.discordapp.com/attachments/692019678482006016/1071989408699527278/image.png");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: contain;
+    justify-content: center;
+    left: 0;
+    display:flex;
+    
+}
+
+.taskbar {
+    background-image: url("https://media.discordapp.net/attachments/692019678482006016/1072004080815329391/image.png?width=1120&height=26");
+    background-repeat:no-repeat;
+    width:100%;
+    height: 4vh;
+    background-size: cover;
+    left: 0;
+    right:0;
+    display: flex;
+    
+}
+
+
+

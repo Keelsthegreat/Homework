@@ -1,0 +1,349 @@
+body {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container1{
+   
+display: flex;
+
+}
+ 
+.mainNav {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    gap: 15%;
+    
+    
+    
+}
+ .container2{
+ border: solid 2px black;
+ width: 500px;
+ height: 500px;
+ background-image: url("https://mario.wiki.gallery/images/2/25/Ladida_Plains_1-1.png");
+ background-size: cover;
+    background-repeat: no-repeat;
+   
+
+
+ }
+
+ .container3{
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/001/928/865/large/sarah-boeving-kitchen.jpg?1454711199");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+    }
+
+    .container4{
+        border: solid 2px black;
+        width: 500px;
+        height: 500px;
+        background-image: url("https://i.pinimg.com/originals/b1/bd/c1/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif");
+       
+       
+        }
+
+        .container5{
+            border: solid 2px black;
+            width: 500px;
+            height: 500px;
+            background-image: url("https://i.pinimg.com/originals/26/8e/86/268e86d4c54470d415ce0420435bdadd.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+  }
+
+  .container6{
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    background-image: url("https://i.pinimg.com/originals/26/8e/86/268e86d4c54470d415ce0420435bdadd.jpg");
+   
+   
+    }
+
+
+.btn{
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    justify-content: space-between;
+    left: 100px;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #F082AC; }
+
+
+
+@keyframes jump {
+    0% { transform: translateY(-50%, -50%) scale(1.25, 0.75); }
+    50% { transform: translate(-50%, -150%) scale(1, 1); }
+    55% { transform: translate(-50%, -150%) rotate(15deg); }
+    60% { transform: translate(-50%, -150%) rotate(-15deg); }
+    65% { transform: translate(-50%, -150%) rotate(15deg); }
+    70% { transform: translate(-50%, -150%) rotate(-15deg); }
+    100% { transform: translate(-50%, -50%) scale(1.25, 0.75); }
+}
+
+
+
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(237, 155, 31, 0.7);
+        }
+    
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(255, 208, 39, 0.778);
+        }
+    
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(241, 218, 8, 0.808);
+        }
+    }
+
+    @keyframes flash {
+        0%, 50%, 100% {
+           opacity: 1;
+        }
+        25%, 75% {
+           opacity: 0;
+        }
+     }
+
+     @keyframes zoom-in-zoom-out {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: scale(1.5, 1.5);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+
+      @keyframes walk {
+        0%   { left:0px; top:0px;}
+        25%  { left:200px; top:0px;}
+        50%  { left:200px; top:200px;}
+        75%  { left:0px; top:200px;}
+        100% { left:0px; top:0px;}
+      }   
+
+.container {
+    margin-left: 50px;
+    gap: 20px;
+    display: block;
+}
+
+.ball {
+    
+    height: 125px;
+    width: 125px;
+    border-radius: 150%;
+    position:relative; left:180px; bottom: -240px;
+
+  
+    
+  
+    /* to create an animation */
+    
+    
+    
+}
+
+.ball2 {
+    
+    height: 250px;
+    width: 250px;
+    border-radius: 200%;
+    position:relative; left:100px; bottom: -250px;
+
+   
+  
+    
+    /* to create an animation */
+    
+}
+
+.ball3 {
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 150%;
+    position:relative; left:195px; bottom: -260px;
+
+  
+    /* to create an animation */
+    
+    
+}
+
+.ball4 {
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 150%;
+    position:relative; left:190px; bottom: -360px;
+
+  
+    /* to create an animation */
+    
+    
+}
+.ball5 {
+    height: 100px;
+    width: 100px;
+    border-radius: 150%;
+    position:relative; left:100px; bottom: -360px;
+}
+
+
+.jump2 {
+    animation: jump 5s ease-in 1;
+    
+}
+
+.pulse2 {
+    animation: pulse .5s ease-in 7;
+    
+}
+
+.flash2 {
+    animation: flash 3s ease-in 5;
+    
+}
+.zoomIn2 {
+    animation: zoom-in-zoom-out 1s ease;
+} 
+
+.walk2 {
+    animation: walk 4s ease-in 3;
+}
+
+#idk {
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#showMe {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    justify-content: space-between;
+    
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #F082AC; }
+    
+
+
+
+#hideMe {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    justify-content: space-between;
+    margin-right: 45%;
+    left: 11px;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #F082AC; }
+
+    #play  {
+        left: -385px;
+    }
+ #play2 {
+    left: -385px;
+ }
+
+ #pulse {
+    top:-30%;
+    left: -15%;
+ }

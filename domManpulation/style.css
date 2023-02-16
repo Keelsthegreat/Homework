@@ -1,0 +1,111 @@
+body {
+    background-color: #C7FAFF;
+}
+
+.superDiv {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+
+.btn {
+  align-items: center;
+  background-color: #9CCDDA;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 6px 18px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+  display: inline-flex;
+}
+
+.btn:active,
+.btn:hover,
+.btn:focus {
+  outline: 0;
+}
+
+
+.btn:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  background-color: #1AB7E4;
+  border-color: #FAA4A4;
+}
+
+.btn:active:hover,
+.btn:focus:hover,
+.btn:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+
+
+.topRow1{
+    border: solid 2px #565A5B;
+    height: 450px;
+    width: 450px;
+    
+    
+    
+    
+    
+}
+
+.topRow2{
+    border: solid 2px #565A5B;
+    height: 450px;
+    width: 450px;
+    
+    background-color: white;
+    
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: fantasy;
+    
+    
+
+  
+}
+
+
+
+.paraContainer {
+    border: solid 2px #565A5B;
+    width: 450px;
+    height: 450px;
+    font-family: fantasy;
+    font-size: 12px;
+    background-color: white;
+
+}
+
+.trPic {
+    width: 100%;
+    height: 100%;
+}
